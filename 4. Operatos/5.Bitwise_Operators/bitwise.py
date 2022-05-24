@@ -18,7 +18,7 @@ print("Bitwise XOR operator", c)
 print()
 
 c = ~a;           # -61 = 1100 0011
-print("Bitwise bunary 1's operator", c)
+print("Bitwise binary 1's operator", c)
 print()
 
 c = a << 2;       # 240 = 1111 0000

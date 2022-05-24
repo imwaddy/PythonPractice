@@ -11,9 +11,9 @@ b = 20
 print("is operator: ", a is b)
 print()
 
-print("not is operator: ", a not is b)
+print("not is operator: ", a is not b)
 print()
 
 a = 20
-print("not is operator: ", a not is b)
+print("not is operator: ", a is not b)
 print()

@@ -35,7 +35,7 @@ a = 10
 b = 5
 c = a//b
 
-//TODO: Try with below
+#TODO: Try with below
 """
 9//2
 9.0//2.0
