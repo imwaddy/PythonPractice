@@ -5,7 +5,7 @@ print()
 i = 1
 while i < 6:
     print(i)
-    if i == 5:
+    if i == 1:
         break
     i += 1
 print()
@@ -23,7 +23,8 @@ print()
 fruits = ["apple", "banana", "cherry"]
 for f in fruits:
     if f == "apple":
-        print("Passing the value")
+        # print("Passing the value")
         pass
+        print("Passing the value")
     print(f)
 print()
