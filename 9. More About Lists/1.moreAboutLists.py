@@ -17,7 +17,8 @@ print()
 # ---------
 print()
 
-listEx = ["Jimmy", "Anderson", "Virat", "Kohli", "Abraham", "Benjamin", "Franklin"]
+listEx = ["Jimmy", "Anderson", "Virat",
+          "Kohli", "Abraham", "Benjamin", "Franklin"]
 print("List Indexing: ", listEx[0])
 
 list2 = listEx[0:5]
@@ -26,7 +27,7 @@ print("List 2: ", list2)
 # ---------
 print()
 
-#updating value
+# updating value
 
 listEx[0] = "Ravi"
 listEx[1] = "Shastri"
@@ -35,7 +36,7 @@ print()
 
 # ---------
 
-#delete list element
+# delete list element
 
 del listEx[len(listEx)-1]
 print("After delete: ", listEx)

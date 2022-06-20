@@ -26,7 +26,7 @@ print()
 
 # membership
 tuple1 = ('Cricket', 'Football', "Hockey",
-         "Wrestling", "Rugby", "Chess", "Swimming")
+          "Wrestling", "Rugby", "Chess", "Swimming")
 isTrue = "Chess" in tuple1
 print("is Chess in tuple1 : ", isTrue)
 isTrue = "Basketball" in tuple1
@@ -36,6 +36,6 @@ print()
 
 # iteration
 tuple1 = ('Cricket', 'Football', "Hockey",
-         "Wrestling", "Rugby", "Chess", "Swimming")
+          "Wrestling", "Rugby", "Chess", "Swimming")
 for x in tuple1:
     print(x, end='\n')
