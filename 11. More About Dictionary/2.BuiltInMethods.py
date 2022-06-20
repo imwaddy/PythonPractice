@@ -28,3 +28,5 @@ print()
 dict.clear()
 print("Length of Dictionary: ", dict)
 print()
+
+# for more you can practice on https://www.tutorialspoint.com/python3/python_dictionary.htm
