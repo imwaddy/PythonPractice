@@ -10,7 +10,8 @@ print()
 
 # Produces a printable string representation of a dictionary
 str1 = str(dict)
-print("Length of Dictionary: ", str1)
+print("String representation of Dictionary: ", str1)
+print("tring representation of Dictionary: ", type(str1))
 print()
 
 # Returns list of dictionary dict's keys
@@ -26,7 +27,7 @@ print()
 
 # Removes all elements of dictionary dict
 dict.clear()
-print("Length of Dictionary: ", dict)
+print("Empty Dictionary: ", dict)
 print()
 
 # for more you can practice on https://www.tutorialspoint.com/python3/python_dictionary.htm
