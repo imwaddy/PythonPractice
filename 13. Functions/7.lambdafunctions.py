@@ -22,9 +22,13 @@ print()
 # usage of lambda
 add = lambda no1,no2: no1+no2
 sum = add(10,20)
-print(sum)
+print(add(10,20))
 
-# Proven point #2
-add = lambda no1,no2: print(no1+no2)
-sum = add(10,20)
-print(sum)
+# # Proven point #2
+# add = lambda no1,no2: print(no1+no2)
+# sum = add(10,20)
+# print(add(10,20))
+
+
+cube = lambda no1: no1*no1*no1
+print(cube(2))

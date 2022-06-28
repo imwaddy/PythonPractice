@@ -10,5 +10,5 @@ def printme(str):
 
 
 # call printme function
-printme()  # error
-# printme("string value")
+# printme()  # error
+printme("string value")

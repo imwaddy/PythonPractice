@@ -14,12 +14,12 @@ def printinfo(arg1, *vartuple):
     print("First argument is: ", arg1)
 
 
-    print("Length of varargs : ", len(vartuple))
+    print("Length of varargs : ", type(vartuple))
     for var in vartuple:
         print("Variable arguments: ", var)
     return
 
 
 # call printinfo function
-printinfo(10)
-printinfo(70, 60, 50)
+# printinfo(10)
+printinfo(70, 60, 50, 67)
