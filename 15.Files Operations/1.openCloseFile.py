@@ -17,4 +17,8 @@ print("Encoding : ", fo.encoding)
 print()
 
 # close a file
-fo.closed()
+fo.close()
+
+# object will exists in memory and you can use it foer another file operation
+print("Closed or not : ", fo.closed)
+print()
